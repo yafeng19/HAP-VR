@@ -59,7 +59,7 @@ We provide a script with default parameters. Run the following command for train
 bash scripts/train.sh
 ```
 
-The well-trained models are saved at [**here**](https://github.com/yafeng19/HAP-VR/ckpt).
+The well-trained models are saved at [**here**](https://github.com/yafeng19/HAP-VR/tree/master/ckpt).
 
 ## :chart_with_upwards_trend: Evaluation
 
