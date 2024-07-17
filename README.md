@@ -41,7 +41,7 @@ See `requirement.txt` for others.
 
 ## :rocket: Training
 
-#### Dataset
+### Dataset
 
 As a self-supervised framework, HAP-VR is trained on the unlabeled subset of  [VCDB](https://fvl.fudan.edu.cn/dataset/vcdb/list.htm) dataset, *i.e.* distractors (~1.1TB). 
 
@@ -51,7 +51,7 @@ After downloading all the videos into a certain directory, execute the following
 python tools/extract_frames.py
 ```
 
-#### Scripts
+### Scripts
 
 We provide a script with default parameters. Run the following command for training.
 
@@ -63,7 +63,7 @@ The well-trained models are saved at [**here**](https://github.com/yafeng19/HAP-
 
 ## :chart_with_upwards_trend: Evaluation
 
-#### Dataset
+### Dataset
 
 In our paper, four benchmarks are adopted for evaluation. We provide extracted features for all datasets and all feature files are in HDF5 format.
 
@@ -72,7 +72,7 @@ In our paper, four benchmarks are adopted for evaluation. We provide extracted f
 - [FIVR-200K](https://mever.iti.gr/distill-and-select/features/fivr_200k.hdf5) (406 GB)
 - [SVD](https://mever.iti.gr/distill-and-select/features/svd.hdf5) (150 GB)
 
-#### Scripts
+### Scripts
 
 We provide a script with default parameters. Run the following command for evaluation.
 
@@ -91,3 +91,4 @@ If you find this repository useful in your research, please cite the following p
 ## :email: Contact us
 
 If you have any detailed questions or suggestions, you can email us: liuyang232@mails.ucas.ac.cn. We will reply in 1-2 business days. Thanks for your interest in our work!
+
