@@ -1,0 +1,16 @@
+augly==1.0.0
+einops==0.7.0
+ffmpeg==1.4
+h5py==3.3.0
+imageio==2.9.0
+ipython==8.12.3
+matplotlib==3.4.3
+numpy==1.20.3
+Pillow==10.3.0
+pytorchvideo==0.1.5
+scikit_learn==0.24.2
+seaborn==0.11.2
+timm==0.9.16
+torch==2.2.2
+torchvision==0.17.2
+tqdm==4.62.3
