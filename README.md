@@ -1,7 +1,7 @@
 # HAP-VR
 This is the official code for the paper "Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval" accepted by ACM Multimedia (ACMMM 2024). This paper is available at [**here**]().
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?style=flat)](https://arxiv.org/abs/2405.09321) [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/huacong/ReconBoost) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/huacong/ReconBoost) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/huacong/ReconBoost)
+[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?style=flat)]() [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/yafeng19/HAP-VR) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/yafeng19/HAP-VR) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/yafeng19/HAP-VR)
 
 **Paper Title: Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval**
 
