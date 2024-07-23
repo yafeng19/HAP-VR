@@ -1,7 +1,7 @@
 # HAP-VR
-This is the official code for the paper "Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval" accepted by ACM Multimedia (ACMMM 2024). This paper is available at [**here**]().
+This is the official code for the paper "Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval" accepted by ACM Multimedia (ACMMM 2024). This paper is available at [**here**](https://arxiv.org/abs/2407.15566).
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?style=flat)]() [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/yafeng19/HAP-VR) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/yafeng19/HAP-VR) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/yafeng19/HAP-VR)
+[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?style=flat)](https://arxiv.org/abs/2407.15566) [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://github.com/yafeng19/HAP-VR) [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/yafeng19/HAP-VR) [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/yafeng19/HAP-VR)
 
 **Paper Title: Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval**
 
@@ -67,10 +67,12 @@ The well-trained models are saved at [**here**](https://github.com/yafeng19/HAP-
 
 In our paper, four benchmarks are adopted for evaluation. We provide extracted features for all datasets and all feature files are in HDF5 format.
 
-- [EVVE](https://mever.iti.gr/distill-and-select/features/evve.hdf5) (9 GB)
-- [FIVR-5K](https://mever.iti.gr/distill-and-select/features/fivr_5k.hdf5) (8.7 GB)
-- [FIVR-200K](https://mever.iti.gr/distill-and-select/features/fivr_200k.hdf5) (406 GB)
-- [SVD](https://mever.iti.gr/distill-and-select/features/svd.hdf5) (150 GB)
+|  Dataset  |                          Video Task                          |                        Download link                         |
+| :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|   EVVE    |                 Event-based Video Retrieval                  | [link](https://mever.iti.gr/distill-and-select/features/evve.hdf5) (9 GB) |
+|    SVD    |                Near-duplicate Video Retrieval                | [link](https://mever.iti.gr/distill-and-select/features/svd.hdf5) (150 GB) |
+|  FIVR-5K  | Duplicate Scene Video Retrieval / Detection <br />Duplicate Scene Video Retrieval / Detection <br />Duplicate Scene Video Retrieval / Detection | [link](https://mever.iti.gr/distill-and-select/features/fivr_5k.hdf5) (8.7 GB) |
+| FIVR-200K | Duplicate Scene Video Retrieval / Detection <br />Duplicate Scene Video Retrieval / Detection <br />Duplicate Scene Video Retrieval / Detection | [link](https://mever.iti.gr/distill-and-select/features/fivr_200k.hdf5) (406 GB) |
 
 ### Scripts
 
@@ -85,7 +87,15 @@ bash scripts/eval.sh
 If you find this repository useful in your research, please cite the following papers:
 
 ```
-
+@misc{liu2024pairsequalhierarchicallearning,
+      title={Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval}, 
+      author={Yang Liu and Qianqian Xu and Peisong Wen and Siran Dai and Qingming Huang},
+      year={2024},
+      eprint={2407.15566},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.15566}, 
+}
 ```
 
 ## :email: Contact us
