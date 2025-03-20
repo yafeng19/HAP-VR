@@ -87,14 +87,12 @@ bash scripts/eval.sh
 If you find this repository useful in your research, please cite the following papers:
 
 ```
-@misc{liu2024pairsequalhierarchicallearning,
-      title={Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval}, 
-      author={Yang Liu and Qianqian Xu and Peisong Wen and Siran Dai and Qingming Huang},
-      year={2024},
-      eprint={2407.15566},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.15566}, 
+@inproceedings{liu2024not,
+  title={Not All Pairs are Equal: Hierarchical Learning for Average-Precision-Oriented Video Retrieval},
+  author={Liu, Yang and Xu, Qianqian and Wen, Peisong and Dai, Siran and Huang, Qingming},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={3828--3837},
+  year={2024}
 }
 ```
 
